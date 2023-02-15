@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.info .title,
+.info .text{
+    margin-bottom: 32px;
+}
+.info .title{
+    line-height: 1.5;
+}
+.info, .image{
+    width: 50%;
+}
+.image > img{
+    width: 100%;
+}
+.advantages{
+    display: flex;
+    flex-direction: column;
+}
+.advantages-point{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.advantages .advantages-point{
+    margin-bottom: 18px;
+}
+.advantages .advantages-point .advantages-point-text .advantages-point-title,
+.advantages .advantages-point .advantages-point-text .advantages-point-sub-title{
+    margin: 0px;
+}
+.advantages .advantages-point >img{
+    width: 70px;
+}
