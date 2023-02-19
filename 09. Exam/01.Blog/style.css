@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f6e0b5;
+}
+.blog{
+    display: flex;
+}
+.cards{
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    grid-gap: 32px;
+    flex-wrap: wrap;
+    max-width: 580px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 48px 250px;
+}
+.card{
+    flex: 0 0 auto;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+.cards .card .img img{
+    width: 500px;
+    height: 180px;
+    object-fit: contain;
+    object-position: bottom;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.categories{
+    margin-top: 48px;
+    font-size: 24px;
+    color: gray;
+}
+.categories ul{
+    list-style: none;
+    padding-left: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+p{
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+    width: 300px;
+    padding: 4px 4px 4px 4px;
+}

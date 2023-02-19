@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-image: url(images/landing-photo.jpg);
+    background-size: 100% auto;
+    height: 90vh;
+}
+.nav-header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+}
+.nav-header .logo {
+    
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .nav-container{
+    vertical-align: middle;
+  }
+.nav-header .nav {
+    display: flex;
+    gap: 2px;
+  }
+  
+.nav-header .nav-container .nav .nav-item {
+    padding: 1rem 2rem;
+    background-color: var(--clr-grey);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nav-header .nav-container .nav .nav-item.active {
+    background-color: #35030f;
+    color: white;
+    border-radius: 24px;
+    padding: 2px 32px;
+  
+}
+  .nav-header .nav-container .nav .nav-item .nav-link {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1.1px;
+    line-height: 1;
+}
+
+.header .text{
+    margin: 300px 300px;
+}
+.header .text .title{
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+.header .text .subtitle{
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.header .btn-explore{
+    background-color: #35030f;
+    color: white;
+    border: 0;
+    border-radius: 24px;
+    padding: 6px 32px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.header .text .info1{
+    font-weight: 500;
+    width: 400px;
+    margin: 0;
+    font-size: 22px;
+}
+.header .text .info2{
+    font-weight: 500;
+    width: 600px;
+    margin: 0;
+    margin-bottom: 36px;
+    font-size: 22px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.container .main-title{
+    margin: 80px 0 8px 0;
+}
+.container .main-subtitle{
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.container .cards{
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    grid-gap: 32px;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 48px auto;
+}
+.container .cards .card{
+    flex: 0 0 auto;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+.card .img img{
+    width: 350px;
+    height: 320px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    object-position: bottom;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    
+}
+.card .title{
+    margin: 0;
+}
+.card .text-destination{
+    width: 200px;
+    font-size: 12px;
+}
+.card .btn-destination{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 8px 32px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.footer{
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-color: #e5e5e5ff;
+    border-width: 1px;
+    flex-direction: column;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    background-color: black;
+    color: white;
+}
+
+.max-width-container{
+    width: 100%;
+    display: flex;
+    max-width: 1328px;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-direction: column;
+}
+.home-footer1{
+    width: 100%;
+    display: flex;
+    max-width: 1328px;
+    align-items: flex-start;
+    padding-top: 96px;
+    flex-direction: row;
+    padding-bottom: 96px;
+    justify-content: space-between;
+}
+
+.links-container{
+    display: flex;
+    grid-gap: 48px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links-container1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.links-container1 a{
+    text-decoration: none;
+    color: white;
+}
+.follow ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-left: 0;
+}
+.follow ul li i{
+    font-size: 24px;
+}
